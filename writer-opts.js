@@ -34,27 +34,27 @@ function getWriterOpts () {
       })
 
       if (commit.type === `feat` || commit.type === `feature`) {
-        commit.type = `Features`
+        commit.type = `新增功能`
       } else if (commit.type === `fix`) {
-        commit.type = `Bug Fixes`
+        commit.type = `bug修复`
       } else if (commit.type === `perf`) {
-        commit.type = `Performance Improvements`
+        commit.type = `性能优化`
       } else if (commit.type === `revert`) {
-        commit.type = `Reverts`
+        commit.type = `测回`
       } else if (discard) {
         return
       } else if (commit.type === `docs`) {
-        commit.type = `Documentation`
+        commit.type = `文档`
       } else if (commit.type === `style`) {
         commit.type = `Styles`
       } else if (commit.type === `refactor`) {
-        commit.type = `Code Refactoring`
+        commit.type = `代码重构`
       } else if (commit.type === `test`) {
-        commit.type = `Tests`
+        commit.type = `单元测试`
       } else if (commit.type === `build`) {
-        commit.type = `Build System`
+        commit.type = `项目构建`
       } else if (commit.type === `ci`) {
-        commit.type = `Continuous Integration`
+        commit.type = `持续集成`
       }
 
       if (commit.scope === `*`) {
