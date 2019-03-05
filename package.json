@@ -1,0 +1,42 @@
+{
+  "name": "conventional-changelog-gzb",
+  "version": "1.0.0",
+  "description": "conventional-changelog my gzb preset",
+  "main": "index.js",
+  "scripts": {
+    "test-windows": "mocha --timeout 30000"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "my-gzb",
+    "preset"
+  ],
+  "files": [
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "author": "Steve Mao",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "compare-func": "^1.3.1",
+    "q": "^1.5.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDJiaMi/conventional-changelog-gzb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GDJiaMi/conventional-changelog-gzb/issues"
+  },
+  "homepage": "https://github.com/GDJiaMi/conventional-changelog-gzb#readme"
+}
